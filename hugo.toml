@@ -1,0 +1,47 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Blog'
+theme = "beautifulhugo"
+
+
+
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "o-zavodu"
+  name = "O zavodu"
+  url = "/o-zavodu/"
+  weight = 2
+
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+  weight = 3
+
+[[menu.main]]
+  identifier = "web-design"
+  name = "Web Design"
+  url = "/services/web-design/"
+  parent = "services"
+  weight = 1
+
+[[menu.main]]
+  identifier = "seo"
+  name = "SEO"
+  url = "/services/seo/"
+  parent = "services"
+  weight = 2
+
+
+[author]
+    name = "Domen Hribernik"
+
+[original]
+    author =  "dattali"
+    homepage = "https://beautifuljekyll.com"
+    repo = "https://github.com/daattali/beautiful-jekyll"
